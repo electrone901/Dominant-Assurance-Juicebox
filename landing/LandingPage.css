@@ -1,0 +1,91 @@
+.decorationNav {
+    background-color: white;
+    margin-top: -117px;
+    width: 100%;
+    z-index: 250000;
+    background-image: url(../../images/homebgTop.svg);
+    background-position: max(100%, 63vw) max(-1200px, 40px + 108%);
+    background-repeat: no-repeat;
+    height: 235px;
+}
+
+.landingBanner {
+    color: rgb(21, 21, 21);
+    width: 100%;
+    background: linear-gradient(0deg, rgba(21, 21, 21, 0.7), rgb(21 21 21 / 0%)) 50% / cover, url(https://cdn-prod.medicalnewstoday.com/content/images/articles/313/313429/woman-reading-or-studying.jpg);
+    background-repeat: no-repeat;
+    background-position: center center;
+    background-size: cover;
+    padding: 80px 0px 90px;
+    height: 360px;
+    text-align: center;
+}
+
+.logoTest {
+    height: 64px;
+    margin-bottom: 68px;
+    width: 466px;
+}
+
+.banner-title {
+    color: white;
+    font-size: 30px;
+    line-height: 51px;
+    margin-bottom: 67px;
+}
+
+.banner-title2 {
+    margin-bottom: 17px;
+    font-size: 32px;
+    font-family: Poppins, sans-serif;
+    font-weight: 900;
+}
+
+.banner-lookup {
+    color: rgb(255, 255, 255);
+    cursor: pointer;
+    display: inline-block;
+    font-size: 16px;
+    font-weight: 700;
+    line-height: 19px;
+}
+
+.banner-btn {
+    border: 0px;
+    color: rgb(158, 158, 158);
+    font-size: 20px;
+    height: 56px;
+    margin-bottom: 19px;
+    max-width: 545px;
+    outline: none;
+    padding: 16px 60px;
+    width: 100%;
+}
+
+.parent-flex {
+    display: flex;
+    justify-content: center;
+    padding: 50px calc((100% - (255px * 3)) / 2);
+}
+
+.flex-item {
+    /* height: 100px; */
+    flex: 0 0 215px;
+    margin: 1em 20px;
+}
+
+.item-text {
+    font-size: 26px;
+    line-height: 26px;
+    margin: 0px auto;
+    max-width: 300px;
+    text-align: center;
+    font-family: Poppins, sans-serif;
+    font-weight: 700;
+}
+
+.howItWorks {
+    text-align: center;
+    padding-top: 5.5rem;
+    padding-bottom: 11rem;
+}
